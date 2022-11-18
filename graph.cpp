@@ -22,7 +22,7 @@ std::map<int, std::set<int>> input_from_file() {
         }
         i++;
     }
-    return a_l; // copy elision?
+    return a_l;
 }
 
 int main() {
