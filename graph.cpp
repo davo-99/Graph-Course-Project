@@ -26,7 +26,7 @@ std::map<int, std::set<int>> input_from_file() {
 }
 
 int main() {
-	std::cout << std::boolalpha;
+    std::cout << std::boolalpha;
     Graph g(input_from_file());
     g.is_tree() ?
         std::cout << "This graph from the file is a tree :)" << std::endl :
